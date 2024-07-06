@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.main .header {
+  display: flex;
+  align-items: center;
+  background-color: bisque;
+  height: 60px;
+}
+.main .header img {
+  height: 60px;
+  margin-left: 20px;
+}
+.main .header img:hover {
+  border-bottom: 3px solid yellow;
+  background-color: rgb(16, 14, 14);
+  /* border-style: groove; */
+  border-radius: 10px;
+}
+.main .header nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .header nav ul {
+  display: flex;
+  margin-left: 370px;
+
+  list-style: none;
+  gap: 35px;
+}
+.main .header nav ul a {
+  color: brown;
+  text-decoration: none;
+  font-size: 20px;
+}
+.main .header nav ul a:hover {
+  background-color: white;
+  color: black;
+  border-bottom: 3px solid yellowgreen;
+}
+
+.main .header .icons {
+  margin-right: 100px;
+}
+.main .header .icons li:hover {
+  background-color: white;
+  border-bottom: 5px solid olivedrab;
+  border-radius: 10px;
+}
+.main .content {
+  height: 100vh;
+  background: url(/image/study\pic.jpg) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .content h1 {
+  color: blanchedalmond;
+  background-color: transparent;
+  letter-spacing: 10px;
+}
+.main .content h1:hover {
+  border-bottom: 3px dotted greenyellow;
+}
+.main .content p {
+  color: greenyellow;
+}
